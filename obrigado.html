@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
-    <meta name="theme-color" content="#FAF2E7">
+    <meta name="theme-color" content="#076077">
     <meta name="description" content="Página de agradecimento pela inscrição no evento." />
     <meta name="keywords" content="Doces modelados, curso de doces, confetaria artística, confeitaria, renda extra, faturar confeitaria." />
     <meta property="og:url" content="https://patriciafeltrin.com.br/obrigado" />
@@ -36,12 +36,23 @@
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '236448368024058');
         fbq('track', 'PageView');
-
         fbq('trackCustom', 'Cadastro');
 
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=236448368024058&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 10838539817 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10838539817"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-10838539817');
+    </script>
+    <!-- Event snippet for Cadastrou na Jornada conversion page -->
+    <script>
+        gtag('event', 'conversion', { 'send_to': 'AW-10838539817/v2SmCP340pADEKn8m7Ao' });
+    </script>
 </head>
 
 <body class="sea-theme">
@@ -51,21 +62,94 @@
         <p>Faltam poucos passos para você concluir a sua inscrição</p>
         <div class=video>
             <div class="aspect-ratio">
-                <iframe loading="lazy" src="https://www.youtube.com/embed/ZwNrO98yfF0" title="Parabéns, você está participando!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" src="https://www.youtube.com/embed/2bbv607eLzM" title="Parabéns, você está participando!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <a href="https://meugrupo.vip/c/5798" class="btn-captura" rel="noopener">Entrar no grupo do whatsapp</a>
     </header>
 
-    <section class="section-steps">
+
+    <section class="countdown">
+        <div class="grid-120">
+            <h1 class="captura-title">Seja bem vinda!</h1>
+            <p class="captura-text">Acesse seu e-mail e responda a pesquisa que te enviamos! O nosso objetivo é fazer com que você aproveite ao máximo esse evento! Queremos ouvir de você quais são suas principais dificuldades e necessidades para garantir que esse evento vai superar suas expectativas.
+            </p>
+            <p class="captura-text">Nossa jornada, começa em:</p>
+            <ul class="countdown_dates">
+                <li class="countdown_dates_item" id='days'>
+                </li>
+                <li class="countdown_dates_item" id="hours">
+                </li>
+                <li class="countdown_dates_item" id="minutes">
+                </li>
+                <li class="countdown_dates_item" id="seconds">
+                </li>
+            </ul>
+            <a href="https://meugrupo.vip/c/5798" class="btn-captura btn-light" rel="noopener">Entrar no grupo</a>
+        </div>
+    </section>
+    <section class="schedule">
+        <div class="grid-120">
+            <h1 class="captura-title">Anote a data:</h1>
+
+            <ul class="semana-list">
+                <li class="semana-item">
+                    <img loading="lazy" src="assets/imgs/svg-turtle.svg" alt="Imagem aula 01">
+                    <p class="item-title">Aula 01</p>
+                    <p class="item-text">31/01</p>
+                    <p class="captura-text">Pasta americana e o mercado promissor da confeitaria artística.</p>
+                </li>
+                <li class="semana-item">
+                    <img loading="lazy" src="assets/imgs/svg-lagosta.svg" alt="Imagem aula 02">
+                    <p class="item-title">Aula 02</p>
+                    <p class="item-text">01/02</p>
+                    <p class="captura-text aula-js">Os segredos dos doces modelados a mão livre 3D.</p>
+                </li>
+                <li class="semana-item">
+                    <img loading="lazy" src="assets/imgs/svg-shell.svg" alt="Imagem aula 03">
+                    <p class="item-title">Aula 03</p>
+                    <p class="item-text">02/02</p>
+                    <p class="captura-text aula-js">Estratégias para alavancar o seu negócio com doces personalizados.</p>
+                </li>
+                <li class="semana-item">
+                    <img loading="lazy" src="assets/imgs/svg-fish.svg" alt="Imagem aula 04">
+                    <p class="item-title">Aula 04</p>
+                    <p class="item-text">03/02</p>
+                    <p class="captura-text aula-js">Reta final e a aula mais importante eu vou revelar todo o caminho.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="section-steps">
         <div class="grid-120">
             <h1 class="captura-title">Siga esse passo a passo</h1>
-            <p class="captura-text">A semana especial doce natal vai acontecer do dia <span class="captura-bold">02 a 05 de novembro, sempre as 20h08</span> (horário de Brasília).</p>
+            <p class="captura-text">A jornada da Confeitaria Artística 5K acontece de <span class="captura-bold">31 a 03 de Fevereiro</span></p>
             <p class="captura-text">As <span class="captura-bold">lives não ficarão salvas!</span> Caso você não estiver ao vivo, só receberá o replay por e-mail se estiver com a sua inscrição confirmada. Por isso, é importantíssimo abrir seu e-mail de confirmação.</p>
             <h2 class="captura-title">Para receber os avisos e participar, siga as instruções abaixo:</h2>
             <ul class="section-steps-lista">
                 <li class="step-item"><span class="step-lista-block"></span>
-                    <p class="captura-text">Os avisos das Lives serão enviados no seu e-mail a partir do dia 02 de novembro. POR ISSO VERIFIQUE AGORA O SEU E-MAIL E VEJA SE RECEBEU MEU E-MAIL (PATY FELTRIN).</p>
+                    <p class="captura-text">Os avisos das Lives serão enviados no seu e-mail a partir do dia 30 de Janeiro. POR ISSO VERIFIQUE AGORA O SEU E-MAIL E VEJA SE RECEBEU MEU E-MAIL (PATY FELTRIN).</p>
                 </li>
                 <li class="step-item"><span class="step-lista-block"></span>
                     <p class="captura-text">É importante favoritar e responder esse e-mail de confirmação para garantir que você não irá perder nada.</p>
@@ -77,11 +161,11 @@
                     <p class="captura-text">Vou te mandar conteúdos exclusivos pelo Whatsapp, então toque no botão abaixo para participar do grupo fechado</p>
                 </li>
             </ul>
-            <a href="https://meugrupo.vip/c/5798" class="btn-captura btn-light" rel="noopener">Entrar no grupo</a>
+            
         </div>
-    </section>
+    </section> -->
 
-    <footer class="footer-sea-light">Todos os Direitos Reservados - Patrícia Feltrin</footer>
+    <footer class="footer-sea">Todos os Direitos Reservados - Patrícia Feltrin</footer>
 
     <script src="js/main.js"></script>
 </body>
